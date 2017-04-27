@@ -20,10 +20,17 @@ body {
   width: 120px;
 }
 
+.logo-text {
+  color: #EAAA7F;
+}
 .st1 {
   display: none;
 }
 
+.dog {
+  height: 170px;
+  width: 170px;
+}
 p {
   max-width: 350px;
   margin: 35px auto 0;
@@ -95,5 +102,8 @@ footer {
 @media(min-width: 425px) {
   .st1 {
     display: inline-block;
+  }
+  .logo-text {
+    display: none;
   }
 }
