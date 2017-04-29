@@ -14,23 +14,7 @@ body {
   background: #fff;
   margin: 0 auto;
 }
-/********************************** Asset Styles ***************************/
-.logo {
-  height: 140px;
-  width: 120px;
-}
 
-.logo-text {
-  color: #EAAA7F;
-}
-.st1 {
-  display: none;
-}
-
-.dog {
-  height: 170px;
-  width: 170px;
-}
 p {
   max-width: 350px;
   margin: 35px auto 0;
@@ -42,9 +26,6 @@ a {
   text-decoration: none;
   color: #39add1;
   font-weight: 700;
-  }
-  a:hover {
-    color: #111;
   }
 
 header {
@@ -96,6 +77,121 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+/********************************** Menu Styles ***************************/
+.menu-icon {
+  height: 28px;
+  width: 24px;
+}
+
+.menu-item {
+  transition: .5s color, .5s transform;
+}
+
+.menu-icon-path {
+  transition: .5s fill, .5s transform;
+}
+
+.menu-item:hover {
+  color: #4962D8;
+  opacity: 1.5;
+  border-bottom: 1px solid;
+}
+
+.menu-item:hover .menu-icon-path {
+  fill: #4962D8;
+  opacity: 1.5;
+  border-bottom: 1px solid;
+
+}
+/********************************** Logo Styles ***************************/
+.logo {
+  height: 140px;
+  width: 120px;
+}
+
+.logo-text {
+  color: #EAAA7F;
+}
+.logo .st1 {
+  display: none;
+}
+/********************************** Dog Styles ***************************/
+
+.dog {
+  height: 170px;
+  width: 170px;
+  padding-bottom: 1em;
+}
+
+/**============ Red Dog ============**/
+.red .ears {
+  fill: #BA8058;
+}
+
+.red .face {
+  fill: #BA8058;
+}
+
+.red .eyebrows {
+  fill: #EAAA7F;
+}
+
+.red .snout {
+fill: #FBFEFF;
+}
+/**============ Fawn Dog ============**/
+.fawn .ears {
+  fill: #EAAA7F;
+}
+
+.fawn .face {
+  fill: #EAAA7F;
+}
+
+.fawn .eyebrows {
+  fill: #F4C6A6;
+}
+
+.fawn .snout {
+fill: #FBFEFF;
+}
+
+
+/**============ Sable Dog ============**/
+.sable .ears {
+  fill: #844B24;
+}
+
+.sable .face {
+  fill: #844B24;
+}
+
+.sable .eyebrows {
+  fill: #BA8058;
+}
+
+.sable .snout {
+fill: #FBFEFF;
+}
+
+/**============ Black and Tan Dog ============**/
+
+.black-tan .ears {
+  fill: #BA8058;
+}
+
+.black-tan .face {
+  fill: #52595F;
+}
+
+.black-tan .eyebrows {
+  fill: #BA8058;
+}
+
+.black-tan .snout {
+fill: #FBFEFF;
 }
 
 /********************************** Media Queries ***************************/
