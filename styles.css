@@ -86,24 +86,21 @@ footer {
 }
 
 .menu-item {
-  transition: .5s color, .5s transform;
+  transition: .5s color, .5s border-bottom;
+  border-bottom: 1px solid white;
 }
 
 .menu-icon-path {
-  transition: .5s fill, .5s transform;
+  transition: 1s fill;
 }
 
 .menu-item:hover {
   color: #4962D8;
-  opacity: 1.5;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #4962D8;
 }
 
 .menu-item:hover .menu-icon-path {
   fill: #4962D8;
-  opacity: 1.5;
-  border-bottom: 1px solid;
-
 }
 /********************************** Logo Styles ***************************/
 .logo {
